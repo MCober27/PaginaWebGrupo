@@ -12,7 +12,11 @@ function validar(){
 function comprobarCampos(){
 	
 	var rellenos = true;
+	/**Cogemos el boton que necesitaremos para deshabilitarlo**/
+	var boton = document.getElementById("boton");
+	/**Cogemos el checkbox de las condiciones**/
 	var condiciones = document.getElementById("condiciones");
+	
 	/**Recogemos todos los campos obligatorios reunidos bajo el name obligatorios**/
 	var obligados = document.getElementsByName("obligatorios");
 	/**Para cada uno de ellos comprobamos si su longitud es >0 (tienen algo) o menor (no tienen nada)**/
@@ -21,26 +25,22 @@ function comprobarCampos(){
 		if(obligados[i].value.length == 0){
 			rellenos = false;
 			condiciones.checked=rellenos;
-			condiciones.disabled=!rellenos;		
+			condiciones.disabled=!rellenos;
+			boton.disabled=!rellenos;	
 		}
 	}	
 	condiciones.disabled=!rellenos;
+	document.getElementById("escondido").value=document.getElementById("nombre").value;
 }
 
 function Asunto(){
-	var opciones = document.getElementById("asunto");
-	if(opciones.options[0].checked){
+	var opciones = document.getElementById("asunto").options;
+	if(opciones.selectedIndex==0){
 		return false;
 	}else{
 		return true;
 	}
-	
-	
-	
 }
-
-
-
 
 function Terminos(){
 	var boton = document.getElementById("boton");
