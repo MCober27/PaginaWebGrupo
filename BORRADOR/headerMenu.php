@@ -12,9 +12,8 @@
         <link rel="stylesheet" href="css/mailform.css">
         <link rel="stylesheet" href="css/color.css">
         <link rel="stylesheet" href="css/Pformulario.css">
-        <!-- CSS MÍO -->
+        <!-- CSS MÃ�O -->
         <link rel="stylesheet" type="text/css" href="css/Pfuentes.css">
-        <script src="js/PFormulario.js"></script>
         <script src="js/jquery.js"></script>
         <script src="js/jquery-migrate-1.2.1.js"></script><!--[if lt IE 9]>
         <html class="lt-ie9">
@@ -23,6 +22,7 @@
         <script src="js/html5shiv.js"></script><![endif]-->
         <script src="js/device.min.js"></script>
         <script src="js/PIluminar.js"></script>
+        <script src="js/ValidacionForm.js"></script>
 
         <?php
         //Muestra el titulo de la ventana
@@ -50,13 +50,13 @@
                 <h1 class="titulo"><a href="./">fWILD SAFARIa</a></h1>
              </div>  
             <a href="callto:900999999" class="fa-phone"><strong>900 999 999</strong></a>
-            <p><strong>Bienvenido a Wild Safari, llámenos para cualquier información</strong></p>
+            <p><strong>Bienvenido a Wild Safari, llÃ¡menos para cualquier informaciÃ³n</strong></p>
         </div>
         <div id="stuck_container" class="stuck_container">
             <div class="container">
                 <nav class="nav">
                     <ul id="menu" data-type="navbar" class="sf-menu">
-                        <li><a href="./" title="Página principal">HOME</a>
+                        <li><a href="./" title="PÃ¡gina principal">HOME</a>
                         </li>
                         <li><a href="?actividades"  title="Nuestras actividades">ACTIVIDADES</a>
                         </li>
