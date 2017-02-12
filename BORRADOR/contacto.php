@@ -6,6 +6,9 @@
       -->
 
       <main>
+      <section class="well">
+      <div class="container"><p><a href="?home">Inicio</a>&nbsp;&nbsp;>&nbsp;&nbsp;Contacto</p></div>
+      </section>
         <section class="well1">
           <div class="container">
             <h2>¿Necesitas ayuda? Contacte con nosotros desde este formulario</h2>
