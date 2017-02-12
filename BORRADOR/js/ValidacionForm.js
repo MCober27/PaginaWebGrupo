@@ -13,7 +13,7 @@ function comprobarCampos(){
 	
 	var rellenos = true;
 	var condiciones = document.getElementById("condiciones");
-	/**Recogemos todos los campos obligatorios reunidos bajo el name obligatorios**/
+	/**Recogemos todos los campos obligatorios reunidos bajo el name obligatorios (¡ASI NO FUNCIONA LA PARTE DEL SERVIDOR $_POST!) **/
 	var obligados = document.getElementsByName("obligatorios");
 	/**Para cada uno de ellos comprobamos si su longitud es >0 (tienen algo) o menor (no tienen nada)**/
 	for(var i=0; i<obligados.length;i++){
