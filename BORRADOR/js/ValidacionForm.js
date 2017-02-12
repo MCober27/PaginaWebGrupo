@@ -27,6 +27,21 @@ function comprobarCampos(){
 	condiciones.disabled=!rellenos;
 }
 
+function Asunto(){
+	var opciones = document.getElementById("asunto");
+	if(opciones.options[0].checked){
+		return false;
+	}else{
+		return true;
+	}
+	
+	
+	
+}
+
+
+
+
 function Terminos(){
 	var boton = document.getElementById("boton");
 	if(document.getElementById("condiciones").checked){
